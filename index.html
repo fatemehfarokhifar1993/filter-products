@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>filter-products</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <!-- header start -->
+    <header>
+      <div class="header bd-container">
+        <div class="logo"><i class="fas fa-brush"></i> Art</div>
+        <nav class="navbar">
+          <ul class="navlist">
+            <li class="nav__item">
+              <a class="nav__link" href="#home">home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">about</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#services">services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#Products">Products</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#testimonial">testimonial</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="menu" class="fas fa-palette"></div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- home start -->
+    <section id="home" class="home">
+      <div class="home__content bd-container">
+        <h1>Lorem ipsum <span>art</span> gallery</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          eum explicabo voluptatum amet rerum dolorum placeat nisi dolore enim
+          harum!
+        </p>
+        <a href="#about" class="link">get started</a>
+      </div>
+    </section>
+    <!-- home end -->
+    <!-- about start -->
+    <section id="about">
+      <div class="about bd-container">
+        <h1 class="heading"><span> about us </span></h1>
+        <div class="about__data">
+          <div class="about__content">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+              suscipit animi, aut veniam itaque non consequuntur reiciendis
+              eveniet doloremque! Laboriosam? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Accusantium natus ad voluptatum,
+              voluptates illum animi voluptatibus omnis neque error unde!
+            </p>
+            <a class="link">Read More</a>
+          </div>
+
+          <div class="about__image">
+            <img src="images/about-img.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    َ<!-- about end -->
+    <!-- services start -->
+    <section id="services">
+      <div class="services bd-container">
+        <h1 class="heading"><span> our services </span></h1>
+
+        <div class="services__box__container">
+          <div class="box">
+            <img src="images/img1.jpg" alt="" />
+            <div class="info">
+              <h3>SUMMER SALE OFF</h3>
+              <p>upto 40% discount</p>
+              <a class="link">check out</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/img2.jpg" alt="" />
+            <div class="info">
+              <h3>Daily Offer Deals</h3>
+              <p>upto 20% discount</p>
+              <a class="link">check out</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__icons__container">
+          <div class="icons">
+            <!--  <i class="fas fa-shipping-fast"></i> -->
+            <i class="fas fa-truck"></i>
+            <h3>free delivery</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              quisquam.
+            </p>
+          </div>
+          <div class="icons">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3>money returns</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              quisquam.
+            </p>
+          </div>
+
+          <div class="icons">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 ONLINE SUPPORT</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              quisquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services end -->
+    <!-- product start -->
+    <section id="Products">
+      <div class="filter bd-container">
+        <h1 class="heading"><span> Products </span></h1>
+        <div class="search-box">
+          <input
+            type="text"
+            class="search"
+            id="search"
+            placeholder="search products..."
+          />
+        </div>
+        <div >
+          <ul class="filter-box">
+            <li>
+              <button class="btn" data-filter="">All</button>
+            </li>
+            <li>
+              <button class="btn" data-filter="flower">flower</button>
+            </li>
+            <li>
+              <button class="btn" data-filter="Nature">Nature</button>
+            </li>
+            <li>
+              <button class="btn" data-filter="animal">animal</button>
+            </li>
+          </ul>
+        </div>
+        <div class="products"></div>
+      </div>
+    </section>
+    <!-- product end -->
+    <!-- testimonial start -->
+    <section id="testimonial">
+      <div class="testimonial bd-container">
+        <h1 class="heading"><span> testimonial </span></h1>
+        <div class="testimonial__container">
+          <div class="testimonial__box">
+            <div class="testimonial__images">
+              <img src="images/user.png" alt="" />
+            </div>
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui
+              accusamus autem! Veniam exercitationem adipisci in excepturi
+              labore magni voluptatibus?
+            </p>
+          </div>
+          <div class="testimonial__box">
+            <div class="testimonial__images">
+              <img src="images/user.png" alt="" />
+            </div>
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui
+              accusamus autem! Veniam exercitationem adipisci in excepturi
+              labore magni voluptatibus?
+            </p>
+          </div>
+          <div class="testimonial__box">
+            <div class="testimonial__images">
+              <img src="images/user.png" alt="" />
+            </div>
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui
+              accusamus autem! Veniam exercitationem adipisci in excepturi
+              labore magni voluptatibus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer__container bd-container">
+        <div class="footer__box">
+          <h3 class="heading"><span>why choose us?</span></h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+            animi, quae velit labore eum, eius placeat, voluptas unde saepe
+            aperiam natus expedita nesciunt reprehenderit aliquam doloremque!
+            Dignissimos aut culpa eligendi repudiandae officia, quae libero
+            itaque fugit architecto pariatur dolorum at quod sit voluptas
+            impedit, quasi temporibus earum. Dolores, voluptatem officiis.
+          </p>
+        </div>
+        <div class="footer__box">
+          <h3 class="heading"><span>quick links</span></h3>
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#services">services</a>
+          <a href="#Products">Products</a>
+          <a href="#testimonial">testimonial</a>
+        </div>
+        <div class="footer__box">
+          <h3 class="heading"><span>contact us</span></h3>
+          <p><i class="fas fa-map-marker-alt"></i> Adress</p>
+          <p><i class="fa fa-phone"></i> Phone</p>
+          <p><i class="fas fa-envelope"></i>Email</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
